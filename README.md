@@ -8,6 +8,6 @@ Simple, small, C++ embeddable webserver with WebSockets support _from_ [Seasocks
 
 ## Websocket Handler for each Pane
 
-## View-only FreeBoard Dashboard
+## View-Only FreeBoard Dashboard
 
 ## Related Posts
