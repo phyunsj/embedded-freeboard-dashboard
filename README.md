@@ -8,7 +8,7 @@ Simple, small, C++ embeddable webserver with WebSockets support _from_ [Seasocks
 
 TBD
 
-## Websocket Handler for each Pane
+## Websocket Handler for Dashboard Pane
 
 TBD
 
