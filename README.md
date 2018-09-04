@@ -4,6 +4,10 @@ A damn-sexy, open source real-time dashboard builder for IOT and other web mashu
 
 Simple, small, C++ embeddable webserver with WebSockets support _from_ [Seasocks](https://github.com/mattgodbolt/seasocks)
 
+## The Goal
+
+TBD
+
 ## Installation
 
 TBD
