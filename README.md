@@ -8,15 +8,15 @@ Fast and easy to use C++ micro web framework  _from_ [Crow](https://github.com/i
 
 TBD
 
-## Installation
+## Additional Dependencies
+
+> npm install grunt-processhtml --save-dev
+
+## WebHandler for Dashboard
 
 TBD
 
-## Websocket Handler for Dashboard Pane
-
-TBD
-
-## View-Only FreeBoard Dashboard
+## View-Only Dashboard
 
 TBD
 
