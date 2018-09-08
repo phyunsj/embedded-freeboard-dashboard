@@ -1,16 +1,20 @@
 # Freeboard Dashboard + Embbedded WebApplication
 
-A damn-sexy, open source real-time dashboard builder for IOT and other web mashups. A free open-source alternative to Geckoboard. _from_ [freeboard.io](http://freeboard.io) 
-
-Fast and easy to use C++ micro web framework  _from_ [Crow](https://github.com/ipkn/crow)
-
-## The Goal
+## The Objective
 
 TBD
 
-## Additional Dependencies
+## Dependencies
+
+- A damn-sexy, open source real-time dashboard builder for IOT and other web mashups. A free open-source alternative to Geckoboard. _from_ [freeboard.io](http://freeboard.io) 
+
+- Fast and easy to use C++ micro web framework  _from_ [Crow](https://github.com/ipkn/crow)
+
+#### Additional Dependencies
 
 > npm install grunt-processhtml --save-dev
+
+> npm install grunt-image-embed --save-dev
 
 ## WebHandler for Dashboard
 
