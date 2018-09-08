@@ -10,6 +10,8 @@ TBD
 
 - Fast and easy to use C++ micro web framework  _from_ [Crow](https://github.com/ipkn/crow)
 
+- Flow-based programming for the Internet of Things _from_ [Node-RED](https://nodered.org)
+
 #### Additional Dependencies
 
 > npm install grunt-processhtml --save-dev
