@@ -1,4 +1,4 @@
-# Freeboard Dashboard + Seasocks WebApplication
+# Freeboard Dashboard + Embbedded WebApplication
 
 A damn-sexy, open source real-time dashboard builder for IOT and other web mashups. A free open-source alternative to Geckoboard. _from_ [freeboard.io](http://freeboard.io) 
 
