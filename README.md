@@ -21,7 +21,15 @@
   
 ## 2. Create Datasources
 
+<p align="center">
+<img src="https://github.com/phyunsj/embedded-freeboard-dashboard/blob/master/create_datasource.pngg" width="600px"/>
+</p>
+
 ## 3. Create Pane(s)
+
+<p align="center">
+<img src="https://github.com/phyunsj/embedded-freeboard-dashboard/blob/master/create_pane_text.png" width="600px"/>
+</p>
 
 ## 4. Test Dashboard with Node-RED
 
