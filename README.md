@@ -11,13 +11,11 @@
 - Create a stand-alone (customized) version of Freeboard Dashboard
 - Build HTTP Handler 
 
-## Testing and Generate Freeboard Dashboard.json
+## Testing and Generate Freeboard `dashboard.json`
 
 <p align="center">
 <img src="https://github.com/phyunsj/embedded-freeboard-dashboard/blob/master/node-red-freeboard.gif" width="800px"/>
 </p>
-
-m install grunt-image-embed --save-dev
 
 #### `index-freeboard.html` (edited from `index.html`) & `Gruntfile.js`
 
