@@ -32,6 +32,8 @@
 
 ## 4. Test Dashboard with Node-RED
 
+**Node-RED Flow**
+
 <p align="center">
 <img src="https://github.com/phyunsj/freeboard-dashboard-on-embedded-system/blob/master/node-red-flow.png" width="600px"/>
 </p>
@@ -62,4 +64,8 @@ TBD.
 
 ## 8. Related Posts
 
-TBD
+- [Six Open Source Dashboards to Organize Your Data](https://www.astronomer.io/blog/six-open-source-dashboards/)
+- [How to Create a Live Dashboard for IoT](https://medium.com/@venkatesh.14ee/how-to-create-a-live-dashboard-for-iot-833a81cc98a)
+- [Customizing the FREEBOARD Dashboard](https://www.blackmagicboxes.com/?page_id=386)
+- [Freeboard Dashboard Node for Node-RED](https://github.com/urbiworx/node-red-contrib-freeboard)
+
