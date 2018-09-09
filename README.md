@@ -13,16 +13,19 @@
 
 ## Testing and Generate Freeboard Dashboard.json
 
+<p align="center">
+<img src="https://github.com/phyunsj/embedded-freeboard-dashboard/blob/master/node-red-freeboard.gif" width="800px"/>
+</p>
 
-#### Additional Dependencies
-
-> npm install grunt-processhtml --save-dev
-
-> npm install grunt-image-embed --save-dev
+m install grunt-image-embed --save-dev
 
 #### `index-freeboard.html` (edited from `index.html`) & `Gruntfile.js`
 
 - `imgEmbed` and `processhtml` target are added to build a single index.html with images + *.min.js + *.min.css.
+- additional dependencies
+  > npm install grunt-processhtml --save-dev
+  
+  > npm install grunt-image-embed --save-dev
 
 #### Node-RED flow 
 
