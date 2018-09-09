@@ -7,12 +7,12 @@
 ## The Goal
 
 - Create a stand-alone (customized) version of Freeboard Dashboard
-- Customize HTTP Handler (polling response)
+- Customize HTTP Handler to respond polling requests
 
 ## 1. Generate `index.html`
 
 - `index-freeboard.html` (edited from `index.html`) & `Gruntfile.js`
-- `imgEmbed` and `processhtml` target are added to build a single index.html with images + *.min.js + *.min.css.
+- `imgEmbed` and `processhtml` target are added to build a single index.html with images + *.min.js + *.min.css
 - additional dependencies
   > npm install grunt-processhtml --save-dev
   
