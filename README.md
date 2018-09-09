@@ -22,7 +22,7 @@
 ## 2. Create Datasources
 
 <p align="center">
-<img src="https://github.com/phyunsj/embedded-freeboard-dashboard/blob/master/create_datasource.pngg" width="600px"/>
+<img src="https://github.com/phyunsj/embedded-freeboard-dashboard/blob/master/create_datasource.png" width="600px"/>
 </p>
 
 ## 3. Create Pane(s)
