@@ -40,7 +40,7 @@ TBD
 
 ## View-Only Dashboard
 
-TBD
+TBD. `allow_edit`: false
 
 ## Related Posts
 
