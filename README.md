@@ -1,9 +1,7 @@
 # Freeboard Dashboard + Embedded WebApplication
 
 - A damn-sexy, open source real-time dashboard builder for IOT and other web mashups. A free open-source alternative to Geckoboard. _from_ [freeboard.io](http://freeboard.io) 
-
 - Fast and easy to use C++ micro web framework  _from_ [Crow](https://github.com/ipkn/crow)
-
 - Flow-based programming for the Internet of Things _from_ [Node-RED](https://nodered.org)
 
 ## The Goal
