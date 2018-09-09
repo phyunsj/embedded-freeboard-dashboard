@@ -7,7 +7,7 @@
 ## The Goal
 
 - Create a stand-alone (customized) version of Freeboard Dashboard
-- Customize HTTP Handler to respond polling requests
+- Customize HTTP Handler to respond polling requests from Freeboard Dashboard
 
 ## 1. Generate `index.html`
 
