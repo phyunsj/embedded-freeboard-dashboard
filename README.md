@@ -65,7 +65,9 @@ TBD
 
 ## 8. View-Only Dashboard
 
-TBD. 
+<p align="center">
+<img src="https://github.com/phyunsj/embedded-freeboard-dashboard/blob/master/freeboard_crow_framework.gif" width="900px"/>
+</p> 
 
 ## 8. Related Posts
 
