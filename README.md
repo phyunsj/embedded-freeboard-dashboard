@@ -60,7 +60,7 @@ TBD
 
 ## 7.  Generate `index.html` (production version)
 
-- embedding dashboard.min.json using `gunt-processhtml` `template`
+- embedding dashboard.min.json using `build:template` (`gunt-processhtml`)
 - `allow_edit`: false
 
 ## 8. View-Only Dashboard
