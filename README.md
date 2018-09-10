@@ -9,7 +9,7 @@
 - Create a stand-alone (customized) version of Freeboard Dashboard
 - Customize HTTP Handler to respond polling requests from Freeboard Dashboard
 
-## 1. Generate `index.html` (development version)
+## 1. Generate `index.html` (Development Version)
 
 - `index-freeboard.html` (edited from `index.html`) & `Gruntfile.js`
 - `imgEmbed` and `processhtml` target are added to build a single index.html with images + *.min.js + *.min.css
@@ -54,7 +54,12 @@
 {"version":1,"allow_edit":false,"plugins":[],"panes":[{"title":"Kitchen","width":1,"row":{"2":1,"3":1},"col":{"2":1,"3":1},"col_width":1,"widgets":[{"type":"text_widget","settings":{"title":"Current","size":"big","value":"datasources[\"Temperature_Kitchen\"][\"value\"]","sparkline":false,"animate":true,"units":"ºF"}},{"type":"gauge","settings":{"value":"datasources[\"Temperature_Kitchen\"][\"value\"]","min_value":0,"max_value":100}}]},{"title":"Bed Room","width":1,"row":{"2":1,"3":1},"col":{"2":2,"3":3},"col_width":1,"widgets":[{"type":"text_widget","settings":{"title":"Current","size":"big","value":"datasources[\"Temperature_Bedroom\"][\"value\"]","sparkline":false,"animate":true,"units":"ºF"}},{"type":"gauge","settings":{"value":"datasources[\"Temperature_Bedroom\"][\"value\"]","min_value":0,"max_value":100}}]},{"title":"Living Room","width":1,"row":{"2":7,"3":1},"col":{"2":1,"3":2},"col_width":1,"widgets":[{"type":"text_widget","settings":{"title":"Current","size":"big","value":"datasources[\"Temperature_Livingroom\"][\"value\"]","sparkline":false,"animate":true,"units":"ºF"}},{"type":"gauge","settings":{"value":"datasources[\"Temperature_Livingroom\"][\"value\"]","min_value":0,"max_value":100}}]},{"width":1,"row":{"2":7,"3":13},"col":{"2":2,"3":2},"col_width":1,"widgets":[{"type":"text_widget","settings":{"size":"regular","value":"datasources[\"Clock\"][\"time_string_value\"]","animate":true}}]}],"datasources":[{"name":"Temperature_Kitchen","type":"JSON","settings":{"url":"/freeboard/kitchen","use_thingproxy":true,"refresh":5,"method":"GET"}},{"name":"Temperature_Livingroom","type":"JSON","settings":{"url":"/freeboard/living","use_thingproxy":true,"refresh":5,"method":"GET"}},{"name":"Temperature_Bedroom","type":"JSON","settings":{"url":"/freeboard/bedroom","use_thingproxy":true,"refresh":5,"method":"GET"}},{"name":"Clock","type":"clock","settings":{"refresh":1}}],"columns":3}
 ```
 
-## 6. HTTP Handler for Dashboard
+## 6.  Generate `index.html` (Production Version)
+
+- embedding dashboard.min.json using `build:template` (`gunt-processhtml`)
+- `allow_edit`: false
+
+## 7. HTTP Handler for Dashboard
 
 - GET `index.html`
 
@@ -80,10 +85,6 @@
     });
 ```
 
-## 7.  Generate `index.html` (production version)
-
-- embedding dashboard.min.json using `build:template` (`gunt-processhtml`)
-- `allow_edit`: false
 
 ## 8. View-Only Dashboard
 
