@@ -56,7 +56,29 @@
 
 ## 6. HTTP Handler for Dashboard
 
-TBD
+- GET `index.html`
+
+```
+    CROW_ROUTE(app, "/")
+    ([]{
+        std::ifstream file("./index.html");
+        std::string content((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
+        return content;
+    });
+```
+
+- GET `/freeboard/kitchen` Handler
+
+```
+    CROW_ROUTE(app, "/freeboard/kitchen")
+    ([]{
+        crow::json::wvalue x;
+        int maxTemp = 80;
+        int minTemp = 60;
+        x["value"] = rand()%(maxTemp - minTemp + 1) + minTemp; 
+        return x;
+    });
+```
 
 ## 7.  Generate `index.html` (production version)
 
