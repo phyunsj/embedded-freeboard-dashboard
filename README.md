@@ -86,7 +86,7 @@
         
         value = rand()%(maxTemp - minTemp + 1) + minTemp; 
  #else
-        value =65; // Access the database to retreive the actual vaue fed by other process/thread 
+        value = 65; // Access the database to retreive the actual value fed by other process/thread 
  #endif
         x["value"] = value;
         return x;
