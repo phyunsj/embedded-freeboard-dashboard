@@ -9,7 +9,7 @@
 - Create a stand-alone (customized) version of Freeboard Dashboard
 - Customize HTTP Handler to respond polling requests from Freeboard Dashboard
 
-## 1. Generate `index.html`
+## 1. Generate `index.html` (development version)
 
 - `index-freeboard.html` (edited from `index.html`) & `Gruntfile.js`
 - `imgEmbed` and `processhtml` target are added to build a single index.html with images + *.min.js + *.min.css
@@ -58,7 +58,12 @@
 
 TBD
 
-## 7. View-Only Dashboard (`allow_edit`: false)
+## 7.  Generate `index.html` (production version)
+
+- embedding dashboard.min.json using `gunt-processhtml` `template`
+- `allow_edit`: false
+
+## 8. View-Only Dashboard
 
 TBD. 
 
