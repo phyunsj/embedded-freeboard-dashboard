@@ -78,9 +78,17 @@
     CROW_ROUTE(app, "/freeboard/kitchen")
     ([]{
         crow::json::wvalue x;
+        int value = 0;
+ #ifdef UNITTEST
+        // DEMO purpose only. 
         int maxTemp = 80;
-        int minTemp = 60;
-        x["value"] = rand()%(maxTemp - minTemp + 1) + minTemp; 
+        int minTemp = 60;       
+        
+        value = rand()%(maxTemp - minTemp + 1) + minTemp; 
+ #else
+        value =65; // Access the database to retreive the actual vaue fed by other process/thread 
+ #endif
+        x["value"] = value;
         return x;
     });
 ```
