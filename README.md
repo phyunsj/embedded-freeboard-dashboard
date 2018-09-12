@@ -13,6 +13,16 @@
 
 - `index-freeboard.html` (edited from `index.html`) & `Gruntfile.js`
 - `imgEmbed` and `processhtml` target are added to build a single index.html with images + *.min.js + *.min.css
+- add additional plugins ( sparkline, gauge, ...)
+```
+plugins : {
+                src : [
+                    'plugins/freeboard/*.js',
++                   'plugins/thirdparty/*.js'
+                ],
+                dest : 'js/freeboard.plugins.js'
+            },
+```
 - additional dependencies
   > npm install grunt-processhtml --save-dev
   
@@ -56,8 +66,36 @@
 
 ## 6.  Generate `index.html` (Production Version)
 
+- `{ "allow_edit": false}` in dashboard.min.json
 - embedding dashboard.min.json using `build:template` (`gunt-processhtml`)
-- `allow_edit`: false
+```
+    <!-- build:template 
+    <% if ( environment === 'dist') { %> 
+    <script> 
+    var device_id_23456 = 
+    <% } %>
+    /build -->
+    <!-- build:include:dist dashboard.min.json -->
+    <!-- /build -->
+    <!-- build:template 
+    <% if ( environment === 'dist') { %> 
+    ;
+    </script>
+    <% } %>
+    /build -->
+
+...
+
+   <% if ( environment === 'dist') { %>
+   // Production Mode
+                        freeboard.loadDashboard(device_id_23456, 
+                                function() {
+                                    freeboard.setEditing(false);
+                                });                          
+  <% } else { %>
+   // Development Mode 
+...
+```
 
 ## 7. HTTP Handler for Dashboard
 
