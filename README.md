@@ -44,6 +44,8 @@ plugins : {
 
 **Node-RED Flow**
 
+All data are simulated from Node-RED function node
+
 <p align="center">
 <img src="https://github.com/phyunsj/freeboard-dashboard-on-embedded-system/blob/master/node-red-flow.png" width="600px"/>
 </p>
