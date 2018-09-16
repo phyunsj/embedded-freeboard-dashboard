@@ -99,7 +99,7 @@ All data are simulated from Node-RED function node
 ...
 ```
 
-## 7. HTTP Handler for Dashboard
+## 7. [Crow](https://github.com/ipkn/crow) HTTP Handler for Dashboard
 
 - GET `index.html`
 
@@ -132,7 +132,7 @@ All data are simulated from Node-RED function node
         return x;
     });
 ```
-
+ Same for other GET `/freeboard/living` & `/freeboard/bedroom` Handlers
 
 ## 8. View-Only Dashboard
 
